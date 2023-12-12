@@ -1,8 +1,23 @@
-Results can be found both in the results folder and the scrips folder
-Results for specific Pc tests will be stored with a P (if no additions are made) or an RP (for results using random actions)
-	They are then followed by a number indicating the Pc value used
-	
-The scrips folder contains the code used to produce the graphs, as well as a basic explanation how to run it
+Results are labeled as follows:
+	1. Results [number] [descriptions] refers to the results gathered without using SurNoR, these are here for comparison and test
+	and series of parameters such as rewards used, or type of surprise 
+	2. P[Number] refers to the results gathered when using the unmodified SurNoR algorithm, with P refering to the pc value which
+	controls volatility, the number represents the Pc value used
+	3. RP[Number] is structured the same way as P[Number], but the RP shows those results with the SurNoR algorithm modified to choose
+	actions randomly for the early parts of their runs
 
-The current RDM and SurNoR code is stored in the SolvePOMDP
-	certain features such as random actions may be commented out
+Within all of these folders results are broken down further:
+	1. First their are the scenarios, denoting the different scenarios for the RDMSim
+	2. Next their are the different runs, numbering 5 for each scenario
+
+Lastly within the runs are the various results:
+	Counts.txt contains various counts which refer to things such as topology selection and satisfaction amount/percentage
+	FullTransitionProbs.txt and TransitionProbs.txt contain the transition probabilities at each timestep (the former contains ALL
+	trantions probabilities, the latter only the one currently changed)
+	ObservationProbs.txt contains the observation probabilities for each run
+	InitialBelief.txt contains the beliefs at the start of each timestep
+	RegressionResultsSolvePOMDP.txt files contain the parameters for a given non-functional-requirement (NFR), the belief in failure
+	for this NFR, and if the NFR is satisifed
+	SelectedAction&State.txt contains the selected action and state at each timestep
+	
+
