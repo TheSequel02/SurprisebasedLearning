@@ -1,9 +1,9 @@
 Results are labeled as follows:
-	1. Results [number] [descriptions] refers to the results gathered without using SurNoR, these are here for comparison and test
+	1. Results [number] [descriptions] refers to the results gathered without using a Surprised based learning (SBL) algorithm, these are here for comparison and test
 	and series of parameters such as rewards used, or type of surprise 
-	2. P[Number] refers to the results gathered when using the unmodified SurNoR algorithm, with P refering to the pc value which
+	2. P[Number] refers to the results gathered when using the unmodified SBL algorithm, with P refering to the pc value which
 	controls volatility, the number represents the Pc value used
-	3. RP[Number] is structured the same way as P[Number], but the RP shows those results with the SurNoR algorithm modified to choose
+	3. RP[Number] is structured the same way as P[Number], but the RP shows those results with the SBL algorithm modified to choose
 	actions randomly for the early parts of their runs
 
 Within all of these folders results are broken down further:
