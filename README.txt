@@ -16,8 +16,8 @@ Lastly within the runs are the various results:
 	trantions probabilities, the latter only the one currently changed)
 	ObservationProbs.txt contains the observation probabilities for each run
 	InitialBelief.txt contains the beliefs at the start of each timestep
-	RegressionResultsSolvePOMDP.txt files contain the parameters for a given non-functional-requirement (NFR), the belief in failure
-	for this NFR, and if the NFR is satisifed
+	RegressionResultsSolvePOMDP.txt files contain the parameters for a given quality attribute (QA), the belief in failure
+	for this QA, and if the QA is satisifed
 	SelectedAction&State.txt contains the selected action and state at each timestep
 	
 
