@@ -19,5 +19,12 @@ Lastly within the runs are the various results:
 	RegressionResultsSolvePOMDP.txt files contain the parameters for a given quality attribute (QA), the belief in failure
 	for this QA, and if the QA is satisifed
 	SelectedAction&State.txt contains the selected action and state at each timestep
+
+The Graphs folder is structured identically with two key differences:
+	1. After picking the specific parameter folder (e.g. P06) there are 3 folders corresponding to different types of graphs:
+		Graph 0 contains topology selections during runtime
+		Graph 1 gives the average satisfaction of each QA, as well as the overall satisfaction
+		Graph 2 contains the confidence intervals for each QA showing how far they are from being unsatisfied
+	2. instead of the inner most folder containing the results it contains some graphical summary depending on the type of graph
 	
 
