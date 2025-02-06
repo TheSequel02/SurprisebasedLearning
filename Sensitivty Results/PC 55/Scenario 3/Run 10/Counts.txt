@@ -1,0 +1,6 @@
+Mst Selection rate: 499, RT Selection rate: 1
+MC Sat Rate: 451, MP Sat Rate: 493, MR Sat Rate: 188
+MC Sat Rate: 90, MP Sat Rate: 98, MR Sat Rate: 37
+75
+State occurence (from 1 to 8 respectively): [133.0, 6.0, 312.0, 0.0, 48.0, 1.0, 0.0, 0.0, 0.0]
+State percentage (from 1 to 8 respectively): [14.777777777777779, 0.6666666666666666, 34.666666666666664, 0.0, 5.333333333333333, 0.1111111111111111, 0.0, 0.0, 0.0]
