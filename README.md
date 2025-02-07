@@ -18,8 +18,8 @@
 
 ### The Graphs folder is structured identically with two key differences:
 1. After picking the specific parameter folder (e.g. P06) there are 3 folders corresponding to different types of graphs:
-	⋅⋅1 Graph 0 contains topology selections during runtime
-	⋅⋅2 Graph 1 gives the average satisfaction of each QA, as well as the overall satisfaction
-	⋅⋅3 Graph 2 contains the confidence intervals for each QA showing how far they are from being unsatisfied
+	1. Graph 0 contains topology selections during runtime
+ 	2. Graph 1 gives the average satisfaction of each QA, as well as the overall satisfaction
+  	3. Graph 2 contains the confidence intervals for each QA showing how far they are from being unsatisfied
 2. instead of the inner most folder containing the results it contains some graphical summary depending on the type of graph
 	
