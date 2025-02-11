@@ -1,0 +1,16 @@
+Topology stats
+[Mst, RT]
+Range: 7.2, 7.2
+IQR: 3.2, 3.2
+Standard Deviation: 3.95, 3.95
+Medians: 91.1, 8.899999999999999
+Means: 90.54, 9.46
+
+Satisfaction rates
+[MC, MP, MR]
+Range: 8.0, 6.0, 8.4
+IQR: 2.6, 2.8, 2.65
+Standard Deviation: 3.85, 3.5, 4.18
+Medians: 75.1, 88.9, 43.2
+Means: 74.98, 88.98, 43.28
+Mean of means: 69.08
